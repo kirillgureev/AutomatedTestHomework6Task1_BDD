@@ -8,8 +8,8 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class CardReplenishmentPage {
 
-    private SelenideElement amountField = $("[data-test-id=amount] input");
-    private SelenideElement fieldFrom = $("[data-test-id=\"from\"] input");
+    private SelenideElement amountField = $("[data-test-id=amount] input");//.setValue("5000");
+    private SelenideElement fieldFrom = $("[data-test-id=\"from\"] input");//.setValue("5559 0000 0000 0001");
     private SelenideElement topUpButton = $("[data-test-id=\"action-transfer\"]");
 
 
